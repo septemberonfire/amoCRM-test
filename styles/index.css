@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); */
 @import "./variables.css";
 
 body {
@@ -183,4 +183,93 @@ body {
   background: #4077f3;
   margin-bottom: 69px;
   text-align: center;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.footer_main {
+  display: flex;
+}
+
+.footer_title {
+  color: var(--dark-grey);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.footer_about {
+  padding-right: 98px;
+}
+
+.footer_aboutList {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.footer_listItem {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_menu {
+  padding-right: 163px;
+}
+
+.footer_menuList {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 10px;
+  column-gap: 52px;
+}
+
+.footer_contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer_number, .footer_icons {
+  padding-bottom: 20px;
+}
+
+.footer_icons {
+  gap: 10px;
+}
+
+.footer_icon {
+  width: 20px;
+}
+
+.footer_address {
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_rights {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 33px;
+}
+
+.footer_policy {
+  color: inherit;
+  text-decoration-line: underline;
 }
