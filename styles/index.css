@@ -240,7 +240,8 @@ body {
   align-items: flex-end;
 }
 
-.footer_number, .footer_icons {
+.footer_number,
+.footer_icons {
   padding-bottom: 20px;
 }
 
@@ -303,4 +304,210 @@ body {
   position: absolute;
   top: 547px;
   left: 851px;
+}
+
+.benefit_wrap-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .wrap {
+    max-width: 320px;
+  }
+
+  .header_logoWrap,
+  .header_contacts,
+  .header_logoText {
+    display: none;
+  }
+
+  .red-ball,
+  .red-ball-small,
+  .red-light,
+  .people-light,
+  .purple-ball {
+    display: none;
+  }
+
+  .main,
+  .footer_main {
+    flex-direction: column;
+  }
+
+  .header_navbar {
+    padding: 0;
+    gap: 16px;
+  }
+
+  .header_navbarItem {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  .header_navbarItem:last-child {
+    display: none;
+  }
+
+  .header {
+    padding: 20px 16px;
+  }
+
+  .info_title {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .info_title-bold {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .info {
+    padding-bottom: 45px;
+  }
+
+  .benefits_title {
+    text-align: left;
+  }
+
+  .benefits_title-dark,
+  .benefits_title-light {
+    text-transform: none;
+  }
+
+  .benefit_wrap,
+  .btn {
+    display: none;
+  }
+
+  .benefit-mobile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .benefit_line {
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  }
+
+  .benefit_title-mobile {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.65px;
+  }
+
+  .benefit_wrap-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 14px;
+    grid-template-areas:
+      "skype widgets"
+      "dashboard demo";
+  }
+
+  .skype-mobile {
+    grid-area: skype;
+  }
+  .widgets-mobile {
+    grid-area: widgets;
+  }
+  .dashboard-mobile {
+    grid-area: dashboard;
+  }
+  .demo-mobile {
+    grid-area: demo;
+  }
+
+  .main {
+    padding: 40px 14px 55px 14px;
+    background: url("../images/bg.png");
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 45px 16px 60px 16px;
+  }
+
+  .footer_main {
+    gap: 30px;
+  }
+
+  .footer_menu {
+    padding-right: 0;
+  }
+
+  .footer_about {
+    padding-right: 0;
+  }
+
+  .amount {
+    order: 1;
+  }
+
+  .letters {
+    order: 2;
+  }
+
+  .services {
+    order: 3;
+  }
+
+  .cases {
+    order: 4;
+  }
+
+  .widgets-footer {
+    order: 5;
+  }
+
+  .sertificates {
+    order: 6;
+  }
+
+  .integrations {
+    order: 7;
+  }
+
+  .youtube {
+    order: 8;
+  }
+
+  .clients {
+    order: 9;
+  }
+
+  .faq {
+    order: 10;
+  }
+
+  .footer_contacts {
+    align-items: flex-start;
+  }
+
+  .footer_number {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+
+  .footer_address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .footer_icons {
+    padding-bottom: 10px;
+  }
+
+  .footer_rights {
+    padding-top: 50px;
+  }
 }
