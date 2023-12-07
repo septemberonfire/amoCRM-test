@@ -273,3 +273,34 @@ body {
   color: inherit;
   text-decoration-line: underline;
 }
+
+.red-light {
+  width: 311px;
+  position: absolute;
+  top: 251px;
+}
+
+.red-ball {
+  position: absolute;
+  top: 83px;
+  left: 519px;
+}
+
+.people-light {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: 602px;
+}
+
+.purple-ball {
+  position: absolute;
+  left: 868px;
+}
+
+.red-ball-small {
+  width: 28px;
+  position: absolute;
+  top: 547px;
+  left: 851px;
+}
